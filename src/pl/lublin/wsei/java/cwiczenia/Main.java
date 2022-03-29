@@ -11,9 +11,11 @@ public class Main {
     public static void main(String[] args) {
 
         Account acc = new Account();
-        //acc.setName("Piotr Gołabek");
-        acc.name = "Piotr Gołabek";
+        acc.setName("piotr Gołabek");
+        //acc.name = "Piotr Gołabek";
         System.out.println(acc.getName());
+        System.out.printf("%s%n",Account.capitalize("stanisŁaw maruSARz"));
+
 //
 //        int [] liczby = new int[30];
 //        Random rnd = new Random();
